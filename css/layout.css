@@ -10,7 +10,8 @@
    b. Header Styles
    c. About Section
    d. Resume Section
-   e. Footer
+   e. Pubblications Section
+   f. Footer
 
 ===================================================================== */
 
@@ -177,7 +178,6 @@ ul#nav li a {
 ul#nav li a:active { background-color: transparent !important; }
 ul#nav li.current a { color: #11ABB0; }
 
-
 /* ------------------------------------------------------------------ */
 /* c. About Section
 /* ------------------------------------------------------------------ */
@@ -225,7 +225,6 @@ ul#nav li.current a { color: #11ABB0; }
    margin-right: 15px;
    font-size: 20px;
 }
-
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
@@ -364,7 +363,39 @@ ul#nav li.current a { color: #11ABB0; }
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Footer
+/* e. Pubblications Section
+/* ------------------------------------------------------------------ */
+#pubblications {
+   background: #2B2B2B;
+   padding-top: 96px;
+   padding-bottom: 66px;
+   overflow: hidden;
+}
+
+#pubblications a, #pubblications a:visited  { color: #fff; }
+#pubblications a:hover, #pubblications a:focus { color: #11ABB0; }
+
+#pubblications h2 {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+}
+#pubblications p {
+   line-height: 30px;
+   color: #6E7881;
+}
+#pubblications span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#pubblications .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* f. Footer
 /* ------------------------------------------------------------------ */
 
 footer {
