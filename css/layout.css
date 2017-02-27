@@ -375,11 +375,19 @@ ul#nav li.current a { color: #11ABB0; }
 #pubblications a, #pubblications a:visited  { color: #fff; }
 #pubblications a:hover, #pubblications a:focus { color: #11ABB0; }
 
-#pubblications h2 {
-   font: 22px/30px 'opensans-bold', sans-serif;
+#pubblications h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
 }
+
+#pubblications h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
 #pubblications p {
    line-height: 30px;
    color: #6E7881;
