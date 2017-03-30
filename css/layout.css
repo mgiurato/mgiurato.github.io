@@ -26,18 +26,17 @@ body { background: #0f0f0f; }
 /* ------------------------------------------------------------------ */
 
 header {
-	position: relative;
 	height: 800px;
 	min-height: 500px;
 	width: 100%;
    
 	background: #161415 url(../images/background.jpg) no-repeat top center;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover !important;
 	-webkit-background-size: cover !important;
-	    background-attachment: fixed;
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+		position: relative;
 	
 	text-align: center;
 	overflow: hidden;
@@ -396,7 +395,7 @@ ul#nav li.current a { color: #11ABB0; }
 
 #pubblications p {
    line-height: 30px;
-   color: #6E7881;
+   color: #7A7A7A;
 }
 #pubblications span {
    margin-right: 5px;
@@ -404,7 +403,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 #pubblications .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #6E7881;
+   color: #7A7A7A;
 }
 
 
