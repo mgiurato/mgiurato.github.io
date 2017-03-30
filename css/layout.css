@@ -293,10 +293,10 @@ ul#nav li.current a { color: #11ABB0; }
 }
 .bars .skills {
   	margin-top: 36px;
-   list-style: none;
+	list-style: none;
 }
 .bars li {
-   position: relative;
+	position: relative;
   	margin-bottom: 60px;
   	background: #ccc;
   	height: 42px;
@@ -304,41 +304,41 @@ ul#nav li.current a { color: #11ABB0; }
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+	color: #313131;
 	text-transform: uppercase;
-   letter-spacing: 2px;
+	letter-spacing: 2px;
 	font-weight: normal;
-   position: relative;
+	position: relative;
 	top: -36px;
 }
 .bar-expand {
-   position: absolute;
-   left: 0;
-   top: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
 
-   margin: 0;
-   padding-right: 24px;
+	margin: 0;
+	padding-right: 24px;
   	background: #11ABB0;
-   display: inline-block;
+	display: inline-block;
   	height: 42px;
-   line-height: 42px;
-   border-radius: 3px 0 0 3px;
+	line-height: 42px;
+	border-radius: 3px 0 0 3px;
 }
 
 .matlab {
   	width: 90%;
-  	-moz-animation: matlab 2s ease;
-  	-webkit-animation: matlab 2s ease;
+    -moz-animation: matlab 2s ease-out;
+    -webkit-animation: matlab 2s ease-out;
 }
 .simulink {
   	width: 90%;
-  	-moz-animation: simulink 2s ease;
-  	-webkit-animation: simulink 2s ease;
+  	-moz-animation: simulink 2s ease-out;
+	-webkit-animation: simulink 2s ease-out;
 }
 .solidworks {
   	width: 70%;
-  	-moz-animation: solidworks 2s ease;
-  	-webkit-animation: solidworks 2s ease;
+  	-moz-animation: solidworks 2s ease-out;
+  	-webkit-animation: solidworks 2s ease-out;
 }
 
 @-moz-keyframes matlab {
@@ -490,4 +490,3 @@ footer .social-links li:first-child { margin-left: 0; }
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
-
