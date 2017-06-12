@@ -10,7 +10,7 @@
    b. Header Styles
    c. About Section
    d. Resume Section
-   e. Pubblications Section
+   e. research Section
    f. Footer
 
 ===================================================================== */
@@ -367,19 +367,19 @@ ul#nav li.current a { color: #11ABB0; }
 }
 
 /* ------------------------------------------------------------------ */
-/* e. Pubblications Section
+/* e. Research Section
 /* ------------------------------------------------------------------ */
-#pubblications {
+#research {
    background: #2B2B2B;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#pubblications a, #pubblications a:visited  { color: #fff; }
-#pubblications a:hover, #pubblications a:focus { color: #11ABB0; }
+#research a, #research a:visited  { color: #fff; }
+#research a:hover, #research a:focus { color: #11ABB0; }
 
-#pubblications h1 {
+#research h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
@@ -387,20 +387,20 @@ ul#nav li.current a { color: #11ABB0; }
    letter-spacing: 1px;
 }
 
-#pubblications h1 span {
+#research h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
 
-#pubblications p {
+#research p {
    line-height: 30px;
    color: #7A7A7A;
 }
-#pubblications span {
+#research span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#pubblications .info {
+#research .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: #7A7A7A;
 }
