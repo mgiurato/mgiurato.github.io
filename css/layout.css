@@ -377,7 +377,8 @@ ul#nav li.current a { color: #11ABB0; }
 }
 
 #research a, #research a:visited  { color: #11ABB0; }
-#research a:hover, #research a:focus { color: #11ABB0; }
+#research a:hover, #research a:focus { color: white }
+
 
 #research h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
