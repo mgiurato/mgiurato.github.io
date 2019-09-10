@@ -67,7 +67,7 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
 	font: 18px/1.9em 'librebaskerville-regular', serif;
-	color: #A8A8A8;
+	color: #F5F5F5;
 	margin: 0 auto;
 	width: 70%;
 	text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
@@ -203,7 +203,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #C0C0C0;
 }
 #about .profile-pic {
    position: relative;
@@ -376,7 +376,7 @@ ul#nav li.current a { color: #11ABB0; }
    overflow: hidden;
 }
 
-#research a, #research a:visited  { color: #fff; }
+#research a, #research a:visited  { color: #11ABB0; }
 #research a:hover, #research a:focus { color: #11ABB0; }
 
 #research h1 {
@@ -394,7 +394,7 @@ ul#nav li.current a { color: #11ABB0; }
 
 #research p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #C0C0C0;
 }
 #research span {
    margin-right: 5px;
@@ -402,7 +402,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 #research .info {
    font: 16px/24px 'librebaskerville-italic', serif;
-   color: #7A7A7A;
+   color: #C0C0C0;
 }
 
 
